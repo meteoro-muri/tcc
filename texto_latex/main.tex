@@ -1,0 +1,187 @@
+
+\documentclass[
+% -- opções da classe memoir --
+12pt,				% tamanho da fonte
+oneside,			% para impressão no anverso. Oposto a twoside
+a4paper,			% tamanho do papel. 
+% -- opções da classe abntex2 --
+chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
+section=TITLE		% títulos de seções convertidos em letras maiúsculas
+]{abntex2}
+
+% 2. Carrega o pacote customizado da UFSC
+\usepackage{setup/ufscthesisA4-alf}
+
+
+% ---
+% Supressão de avisos de versão do PDF das figuras
+% ---
+\pdfminorversion=7
+
+
+
+% ---
+% Filtering and Mapping Bibliographies
+% ---
+\usepackage{csquotes}
+
+\usepackage[
+	backend = biber,
+	style = abnt,
+	language = brazil,
+	natbib = true
+]{biblatex}
+
+\setlength\bibitemsep{\baselineskip}
+\DeclareFieldFormat{url}{Disponível~em:\addspace\url{#1}}
+\NewBibliographyString{sineloco}
+\NewBibliographyString{sinenomine}
+
+% Suporte duplo para o BibLaTeX aceitar tanto o termo curto quanto o longo
+\DefineBibliographyStrings{brazil}{%
+	sineloco     = {\mkbibemph{S\adddot l\adddot}},
+	sinenomine   = {\mkbibemph{s\adddot n\adddot}},
+	andothers    = {\mkbibemph{et\addabbrvspace al\adddot}},
+	in			 = {\mkbibemph{In:}}
+}
+\DefineBibliographyStrings{brazilian}{%
+	sineloco     = {\mkbibemph{S\adddot l\adddot}},
+	sinenomine   = {\mkbibemph{s\adddot n\adddot}},
+	andothers    = {\mkbibemph{et\addabbrvspace al\adddot}},
+	in			 = {\mkbibemph{In:}}
+}
+
+
+
+% ---
+\DeclareSourcemap{
+	\maps[datatype=bibtex]{
+		% remove fields that are always useless
+		\map{
+			\step[fieldset=abstract, null]
+			\step[fieldset=pagetotal, null]
+		}
+		\map{
+			\pertype{inproceedings}
+			% remove mostly redundant conference information
+			\step[fieldset=venue, null]
+			\step[fieldset=eventdate, null]
+			\step[fieldset=eventtitle, null]
+			% do not show ISBN for proceedings
+			\step[fieldset=isbn, null]
+			% Citavi bug
+			\step[fieldset=volume, null]
+		}
+	}
+}
+% ---
+
+% ---
+% Informações de dados para CAPA e FOLHA DE ROSTO
+% ---
+\autor{Murilo Ferreira dos Santos}
+\titulo{Impacto das Queimadas de Setembro de 2024 sobre o Oeste de Santa Catarina}
+\subtitulo{Caracterização do Transporte e da Dispersão de Aerossóis}
+\orientador[Orientadora]{Profa. Dra. Caroline Bresciani}
+\coorientador[Co-orientador]{Prof. Dr. Mario Francisco Leal de Quadro}
+\coordenador{Prof. Dr. Renato Ramos da Silva}
+\ano{2026}
+\data{[dia] de [mês] de [ano]}
+\local{Florianópolis}
+\instituicaosigla{UFSC}
+\instituicao{Universidade Federal de Santa Catarina}
+\tipotrabalho{Trabalho de Conclusão de Curso}
+\formacao{bacharel em Meteorologia}
+\nivel{bacharel}
+\programa{Graduação em Meteorologia}
+\centro{Centro de Ciências Físicas e Matemáticas}
+\preambulo
+{%
+	\imprimirtipotrabalho~da~\imprimirprograma~do~\imprimircentro~da~\imprimirinstituicao~para~a~obtenção~do~título~de~\imprimirformacao.
+}
+% ---
+
+% ---
+% Configurações de aparência do PDF final
+% ---
+\definecolor{blue}{RGB}{41,5,195}
+\makeatletter
+\hypersetup{
+	pdftitle={\@title}, 
+	pdfauthor={\@author},
+	pdfsubject={\imprimirpreambulo},
+	pdfcreator={LaTeX with abnTeX2},
+	pdfkeywords={ufsc, latex, abntex2}, 
+	colorlinks=true,       		
+	linkcolor=black,
+	citecolor=black,
+	filecolor=black,
+	urlcolor=black,
+	bookmarksdepth=4
+}
+\makeatother
+% ---
+
+% Declaração das siglas e símbolos
+\siglalista{ABNT}{Associação Brasileira de Normas Técnicas}
+\simbololista{C}{\ensuremath{C}}{Circunferência de um círculo}
+\simbololista{pi}{\ensuremath{\pi}}{Número pi} 
+\simbololista{r}{\ensuremath{r}}{Raio de um círculo}
+\simbololista{A}{\ensuremath{A}}{Área de um círculo}
+
+%\makenoidxglossaries 
+\makeindex
+\usepackage{hyperref}
+\usepackage{subcaption}
+\usepackage{multirow}
+\usepackage{siunitx}
+\addbibresource{aftertext/references.bib}
+% ----
+% Início do documento
+% ----
+\begin{document}
+	
+	% Seleciona o idioma do documento para português nativo da classe UFSC
+	%\selectlanguage{english}
+	\selectlanguage{brazil}
+	
+	\frenchspacing 
+	\OnehalfSpacing
+	
+	% ----------------------------------------------------------
+	% ELEMENTOS PRÉ-TEXTUAIS
+	% ----------------------------------------------------------
+	\input{beforetext/beforetext}
+	
+	% ----------------------------------------------------------
+	% ELEMENTOS TEXTUAIS
+	% ----------------------------------------------------------
+	\textual
+	
+	\include{chapters/1-chapter}
+	\include{chapters/2-chapter}
+	\include{chapters/3-chapter}
+	\include{chapters/4-chapter}
+	
+	% ----------------------------------------------------------
+	% ELEMENTOS PÓS-TEXTUAIS
+	% ----------------------------------------------------------
+	\postextual
+	
+	% Referências bibliográficas
+	\begingroup
+	\SingleSpacing
+	\printbibliography[title=REFERÊNCIAS]
+	\endgroup
+	
+	% Apêndices
+	%\begin{apendicesenv}
+	%	\input{aftertext/apendice_a}
+	%\end{apendicesenv}
+	
+	% Anexos
+	%\begin{anexosenv}
+	%	\input{aftertext/anexo_a}
+	%\end{anexosenv}
+	
+\end{document}

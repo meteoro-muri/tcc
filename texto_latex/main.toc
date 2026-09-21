@@ -1,0 +1,40 @@
+\changetocdepth {4}
+\babel@toc {brazil}{}\relax 
+\babel@toc {brazil}{}\relax 
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{10}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Objetivos}{10}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Objetivo Geral}{10}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Objetivos Específicos}{11}{subsection.1.1.2}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Revisão Bibliográfica}}{12}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Aerossóis}{12}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Processo de Formação}{12}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Composição Química}{13}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Distribuição Espacial e Temporal}{14}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Distribuição de Tamanho de Partículas e Propriedades Ópticas}{15}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}Jato de Baixos Níveis}{15}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Jato de Baixos Níveis da América do Sul}{17}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Bloqueios Atmosféricos}{19}{section.2.4}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Metodologia}}{21}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Área de Estudo}{21}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Santa Catarina}{21}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Dados Utilizados}{21}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Reanálise \textit {Copernicus Atmosphere Monitoring Service} (CAMS) EAC4}{21}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Reanálise ERA5}{22}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Satélite Goes-16}{23}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}\textit {CAMS Global Fire Assimilation System} (GFAS)}{23}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Modelo HYSPLIT}{24}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Procedimentos}{24}{subsection.3.2.6}%
+\contentsline {subsubsection}{\numberline {3.2.6.1}Delimitação Espacial e Temporal}{24}{subsubsection.3.2.6.1}%
+\contentsline {subsubsection}{\numberline {3.2.6.2}Análise Sinótica}{24}{subsubsection.3.2.6.2}%
+\contentsline {subsubsection}{\numberline {3.2.6.3}Trajetórias}{25}{subsubsection.3.2.6.3}%
+\contentsline {subsubsection}{\numberline {3.2.6.4}Dispersão}{25}{subsubsection.3.2.6.4}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Resultados}}{28}{chapter.4}%
+\vspace {\cftbeforechapterskip }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{REFERÊNCIAS}{38}{section*.36}%
