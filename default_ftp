@@ -1,0 +1,19 @@
+ftp.arl.noaa.gov
+/pub/forecast
+ftp.arl.noaa.gov
+/pub/archives
+ftp.arl.noaa.gov
+/pub/forecast
+ftp.arl.noaa.gov
+/pub/archives
+ftp.arl.noaa.gov
+/pub/forecast
+ftp.arl.noaa.gov
+/pub/archives
+ftpprd.ncep.noaa.gov
+/pub/data/nccf/com/hysplit/prod
+ftp.arl.noaa.gov
+/pub/archives
+-------------------------------------------
+FTP: can't find package ftp
+teacup FTP install failed: couldn't execute "teacup": no such file or directory

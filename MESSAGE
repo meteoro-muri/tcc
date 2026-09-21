@@ -1,0 +1,1023 @@
+ Simulation Date (CCYYMMDD): 20260906
+ Simulation Time (HHMMSS.S): 145611.170
+ NOTICE metini: MODEL_ID not AWRF in data (kg,kt)           1           1
+ Setting DREC(KG,KT)%WVERT=.FALSE. to use default vertical interpolation!
+  NOTICE metini: turbulence undefined (kblt=0); setting to Kantha-Clayson
+ Simulation Date (CCYYMMDD): 20260906
+ Simulation Time (HHMMSS.S): 145611.381
+ WARNING metini: surface pressure not found in file
+ surface pressure will be estimated from terrain height
+ NOTICE metini: MODEL_ID not AWRF in data (kg,kt)           2           1
+ Setting DREC(KG,KT)%WVERT=.FALSE. to use default vertical interpolation!
+ WARNING metini: FLUXES not found in data (kg,kt)           2           1
+ Setting KBLS=2 to use the wind/temp profiles!
+  NOTICE metini: turbulence undefined (kblt=0); setting to Kantha-Clayson
+ 
+   KG   KT DATA  SIZE   NX   NY
+    1    1 ECMG  27.8  521  321
+    2    1 NGM  182.9   33   28
+ 
+  NOTICE   main: number meteo grids and times -            2           1
+  
+ HYSPLIT
+ HYSPLIT version: hysplit.v5.4.2
+ Last Changed Date: 2025-05-14
+ ------------- Start Namelist configuration -------------------
+ Internal grid parameters (nlvl,aa,bb,cc):           23   20.0000000      -15.0000000       5.00000000    
+&SETUP
+ INITD=0          ,
+ KHMAX=9999       ,
+ NUMPAR=2500       ,
+ MAXPAR=10000      ,
+ MAXDIM=1          ,
+ QCYCLE=  0.00000000    ,
+ P10F=  0.00000000    ,
+ KMIXD=-1         ,
+ KMIX0=150        ,
+ FRME=  0.00000000    ,
+ FRMR=  0.00000000    ,
+ KRND=6          ,
+ DELT=  0.00000000    ,
+ KDEF=0          ,
+ TKERD= 0.180000007    ,
+ TKERN= 0.180000007    ,
+ NDUMP=0          ,
+ NCYCL=0          ,
+ TRATIO= 0.750000000    ,
+ ISOT=-99        ,
+ MGMIN=10         ,
+ KMSL=0          ,
+ NSTR=0          ,
+ MHRS=9999       ,
+ NVER=0          ,
+ CPACK=1          , 98*0          ,
+ CMASS=0          ,
+ ICHEM=0          ,
+ EFILE="EMITIMES                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ",
+ VSCALE=  100.000000    ,
+ VSCALES=  0.00000000    ,
+ VSCALEU=  200.000000    ,
+ K10M=1          ,
+ VDIST="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ",
+ KHINP=0          ,
+ PINBC="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ",
+ TOUT=60         ,
+ TM_PRES=1          ,
+ TM_TPOT=0          ,
+ TM_TAMB=0          ,
+ TM_RAIN=0          ,
+ TM_MIXD=0          ,
+ TM_TERR=0          ,
+ HSCALE=  10800.0000    ,
+ TM_DSWF=0          ,
+ TM_RELH=0          ,
+ TM_SPHU=0          ,
+ TM_MIXR=0          ,
+ TM_UWND=0          ,
+ TM_VWND=0          ,
+ DXF=  1.00000000    ,
+ DYF=  1.00000000    ,
+ DZF=  9.99999978E-03,
+ PINPF="PARINIT                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ",
+ POUTF="PARDUMP                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ",
+ NINIT=1          ,
+ KAGL=1          ,
+ KPUFF=0          ,
+ KBLT=0          ,
+ KZMIX=0          ,
+ TVMIX=  1.00000000    ,
+ KBLS=1          ,
+ CONAGE=24         ,
+ KSPL=1          ,
+ FRHS=  1.00000000    ,
+ FRVS=  9.99999978E-03,
+ FRTS= 0.100000001    ,
+ FRHMAX=  3.00000000    ,
+ SPLITF=  1.00000000    ,
+ MESSG="MESSAGE                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ",
+ NBPTYP=1          ,
+ RHB=80         ,
+ RHT=60         ,
+ OUTDT=0          ,
+ DECAY=1          ,
+ KWET=1          ,
+ KRAND=1          ,
+ CAPEMIN= -1.00000000    ,
+ TKEMIN=  1.00000005E-03,
+ URATIO=  5.87330008    ,
+ WBWR=  0.00000000    ,
+ WBWF=  0.00000000    ,
+ WBBH=  0.00000000    ,
+ SEED=0          ,
+ GEMAGE=48         ,
+ VINIT=1          ,
+ VBUG=  0.00000000    ,
+ CMTFN="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ",
+ RANDOM=1          ,
+ TLFRAC= 0.100000001    ,
+ NTURB=0          ,
+ VEGHT= 0.500000000    ,
+ ZICONTROLTF=0          ,
+ WINDERRTF=0          ,
+ IVMAX=5          ,
+ VARSIWANT="TIME","INDX","LONG","LATI","ZAGL",
+  95*"    ",
+ IDSP=1          ,
+ WVERT=T,
+ PLRISE=1          ,
+ AREA=0          ,
+ TERRFLG=0          ,
+ TFMT=1          ,
+ /
+ ------------- End Namelist configuration -------------------
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10  108  129
+  NOTICE metpos: (mtime,ftime) -     65586240           0
+  NOTICE metpos: (mtime,ftime) -     65586180           0
+  NOTICE advpnt: (kg,nx,ny,nz) -     1   10   10   23
+  NOTICE sfcinp: reading ASCDATA.CFG
+  NOTICE sfcinp: record terminator = LF
+  NOTICE metgrd: (kg, xyr,xy1) -     1   10   10  108  129
+  NOTICE metinp: ECMG 135713   10   10  108  129 65586240 24  9 13  0
+ --------------------------------------------------------
+  NOTICE prfXXX: extrapolation from level (k,m):           22   9169.32617    
+ Input data levels:           20     Internal Sigma levels:           23
+ --------------------------------------------------------
+  NOTICE metinp: ECMG 135589   10   10  108  129 65586180 24  9 12 23
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10  108  129
+  NOTICE   main: Initial time step (min)          -15
+  NOTICE   main:     65586225           1           1         -15   111.786575       134.346512      0.918806553    
+  NOTICE   main:     65586225           2           1         -15   111.804184       134.242462      0.940658808    
+  NOTICE   main:     65586225           3           1         -15   111.932823       134.096634      0.961286306    
+  NOTICE   main:     65586210           1           1         -30   111.427750       134.777115      0.920172215    
+  NOTICE   main:     65586210           2           1         -30   111.458702       134.573273      0.940889835    
+  NOTICE   main:     65586210           3           1         -30   111.705818       134.282440      0.960573912    
+  NOTICE   main:     65586195           1           1         -45   111.082932       135.211670      0.922189653    
+  NOTICE   main:     65586195           2           1         -45   111.119553       134.913864      0.941318274    
+  NOTICE   main:     65586195           3           1         -45   111.476257       134.481628      0.959877133    
+  NOTICE   main:     65586180           1           1         -60   110.749954       135.651398      0.925059915    
+  NOTICE   main:     65586180           2           1         -60   110.781891       135.266525      0.942180216    
+  NOTICE   main:     65586180           3           1         -60   111.237900       134.694855      0.959238887    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10  106  130
+  NOTICE metpos: (mtime,ftime) -     65586120    65586240
+  NOTICE metinp: ECMG 135465   10   10  108  129 65586120 24  9 12 22
+  NOTICE   main:     65586160           1           1         -80   110.331100       136.239899      0.929298103    
+  NOTICE   main:     65586160           2           1         -80   110.347031       135.758652      0.943939209    
+  NOTICE   main:     65586160           3           1         -80   110.915268       135.001099      0.958303154    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   10   10  106  130 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   10   10  106  130
+  NOTICE metinp: ECMG 135589   10   10  106  130 65586180 24  9 12 23
+  NOTICE metinp: ECMG 135465   10   10  106  130 65586120 24  9 12 22
+  NOTICE   main:     65586140           1           1        -100   109.948257       136.819611      0.932671845    
+  NOTICE   main:     65586140           2           1        -100   109.940018       136.268738      0.945645154    
+  NOTICE   main:     65586140           3           1        -100   110.594086       135.345505      0.957438231    
+  NOTICE   main:     65586120           1           1        -120   109.596779       137.388168      0.934672654    
+  NOTICE   main:     65586120           2           1        -120   109.555969       136.791962      0.946704268    
+  NOTICE   main:     65586120           3           1        -120   110.267960       135.739655      0.956694961    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10  105  132
+  NOTICE metpos: (mtime,ftime) -     65586060    65586180
+  NOTICE metsub: (kg ,xyr,xy1) -     1   10   10  105  132 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   10   10  105  132
+  NOTICE metinp: ECMG 135465   10   10  105  132 65586120 24  9 12 22
+  NOTICE metinp: ECMG 135341   10   10  105  132 65586060 24  9 12 21
+  NOTICE   main:     65586100           1           1        -140   109.267586       137.920547      0.935108960    
+  NOTICE   main:     65586100           2           1        -140   109.181839       137.291748      0.946805537    
+  NOTICE   main:     65586100           3           1        -140   109.909866       136.156403      0.955799937    
+  NOTICE   main:     65586080           1           1        -160   108.957306       138.402588      0.934469342    
+  NOTICE   main:     65586080           2           1        -160   108.810577       137.744064      0.945464551    
+  NOTICE   main:     65586080           3           1        -160   109.514832       136.556168      0.954540491    
+  NOTICE   main:     65586060           1           1        -180   108.677483       138.843948      0.933517933    
+  NOTICE   main:     65586060           2           1        -180   108.459572       138.165146      0.942695618    
+  NOTICE   main:     65586060           3           1        -180   109.096092       136.937988      0.952141643    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10  104  133
+  NOTICE metpos: (mtime,ftime) -     65586000    65586120
+  NOTICE metinp: ECMG 135217   10   10  105  132 65586000 24  9 12 20
+  NOTICE   main:     65586040           1           1        -200   108.421593       139.260239      0.933237612    
+  NOTICE   main:     65586040           2           1        -200   108.131615       138.578583      0.939715803    
+  NOTICE   main:     65586040           3           1        -200   108.673622       137.322220      0.949075043    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   10   10  104  133 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   10   10  104  133
+  NOTICE metinp: ECMG 135341   10   10  104  133 65586060 24  9 12 21
+  NOTICE metinp: ECMG 135217   10   10  104  133 65586000 24  9 12 20
+  NOTICE   main:     65586020           1           1        -220   108.175850       139.658890      0.934350133    
+  NOTICE   main:     65586020           2           1        -220   107.825996       138.986740      0.937562764    
+  NOTICE   main:     65586020           3           1        -220   108.268654       137.709442      0.946261764    
+  NOTICE   main:     65586000           1           1        -240   107.938370       140.032608      0.936811149    
+  NOTICE   main:     65586000           2           1        -240   107.534836       139.387909      0.936580837    
+  NOTICE   main:     65586000           3           1        -240   107.877617       138.098755      0.943630815    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10  103  135
+  NOTICE metpos: (mtime,ftime) -     65585940    65586060
+  NOTICE metsub: (kg ,xyr,xy1) -     1   10   10  103  135 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   10   10  103  135
+  NOTICE metinp: ECMG 135217   10   10  103  135 65586000 24  9 12 20
+  NOTICE metinp: ECMG 135093   10   10  103  135 65585940 24  9 12 19
+  NOTICE   main:     65585970           1           1        -270   107.575485       140.543137      0.940952420    
+  NOTICE   main:     65585970           2           1        -270   107.104568       139.967041      0.936865747    
+  NOTICE   main:     65585970           3           1        -270   107.304062       138.684784      0.940903008    
+  NOTICE   main:     65585940           1           1        -300   107.197220       141.010086      0.944067299    
+  NOTICE   main:     65585940           2           1        -300   106.673912       140.512589      0.937822521    
+  NOTICE   main:     65585940           3           1        -300   106.740929       139.258194      0.939767718    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10  102  136
+  NOTICE metpos: (mtime,ftime) -     65585880    65586000
+  NOTICE metinp: ECMG 134969   10   10  103  135 65585880 24  9 12 18
+  NOTICE   main:     65585910           1           1        -330   106.814789       141.456070      0.946549177    
+  NOTICE   main:     65585910           2           1        -330   106.230171       141.049408      0.939099193    
+  NOTICE   main:     65585910           3           1        -330   106.163872       139.834351      0.940119386    
+  NOTICE   main:     65585880           1           1        -360   106.428734       141.903976      0.948590398    
+  NOTICE   main:     65585880           2           1        -360   105.769890       141.592911      0.940268457    
+  NOTICE   main:     65585880           3           1        -360   105.556946       140.422592      0.941482484    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10  101  136
+  NOTICE metpos: (mtime,ftime) -     65585820    65585940
+  NOTICE metinp: ECMG 134845   10   10  103  135 65585820 24  9 12 17
+  NOTICE   main:     65585850           1           1        -390   106.047371       142.344589      0.950345576    
+  NOTICE   main:     65585850           2           1        -390   105.285873       142.145844      0.941076577    
+  NOTICE   main:     65585850           3           1        -390   104.900581       141.051193      0.942395210    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   10   10  101  136 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   10   10  101  136
+  NOTICE metinp: ECMG 134969   10   10  101  136 65585880 24  9 12 18
+  NOTICE metinp: ECMG 134845   10   10  101  136 65585820 24  9 12 17
+  NOTICE   main:     65585820           1           1        -420   105.686874       142.758545      0.952188671    
+  NOTICE   main:     65585820           2           1        -420   104.788345       142.689911      0.942203701    
+  NOTICE   main:     65585820           3           1        -420   104.210732       141.693115      0.942497432    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10  100  137
+  NOTICE metpos: (mtime,ftime) -     65585760    65585880
+  NOTICE metinp: ECMG 134721   10   10  101  136 65585760 24  9 12 16
+  NOTICE   main:     65585790           1           1        -450   105.346291       143.160889      0.954607546    
+  NOTICE   main:     65585790           2           1        -450   104.267349       143.240631      0.944003999    
+  NOTICE   main:     65585790           3           1        -450   103.508713       142.334152      0.942872345    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   10   10  100  137 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   10   10  100  137
+  NOTICE metinp: ECMG 134845   10   10  100  137 65585820 24  9 12 17
+  NOTICE metinp: ECMG 134721   10   10  100  137 65585760 24  9 12 16
+  NOTICE   main:     65585760           1           1        -480   105.019775       143.564850      0.957588434    
+  NOTICE   main:     65585760           2           1        -480   103.717941       143.807938      0.945850551    
+  NOTICE   main:     65585760           3           1        -480   102.802521       142.984314      0.943862081    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10   99  138
+  NOTICE metpos: (mtime,ftime) -     65585700    65585820
+  NOTICE metinp: ECMG 134597   10   10  100  137 65585700 24  9 12 15
+  NOTICE   main:     65585730           1           1        -510   104.673119       144.006134      0.961275756    
+  NOTICE   main:     65585730           2           1        -510   103.131142       144.412262      0.948000073    
+  NOTICE   main:     65585730           3           1        -510   102.078583       143.675446      0.945160031    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   10   10   99  138 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   10   10   99  138
+  NOTICE metinp: ECMG 134721   10   10   99  138 65585760 24  9 12 16
+  NOTICE metinp: ECMG 134597   10   10   99  138 65585700 24  9 12 15
+  NOTICE   main:     65585700           1           1        -540   104.316101       144.485397      0.965592861    
+  NOTICE   main:     65585700           2           1        -540   102.485260       145.088943      0.950624764    
+  NOTICE   main:     65585700           3           1        -540   101.329613       144.435883      0.946177483    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10   98  140
+  NOTICE metpos: (mtime,ftime) -     65585640    65585760
+  NOTICE metinp: ECMG 134473   10   10   99  138 65585640 24  9 12 14
+  NOTICE   main:     65585670           1           1        -570   103.957741       145.018646      0.970182776    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   10   10   98  140 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   10   10   98  140
+  NOTICE metinp: ECMG 134597   10   10   98  140 65585700 24  9 12 15
+  NOTICE metinp: ECMG 134473   10   10   98  140 65585640 24  9 12 14
+  NOTICE   main:     65585670           2           1        -570   101.793457       145.842911      0.953596473    
+  NOTICE   main:     65585670           3           1        -570   100.554214       145.264893      0.946363509    
+  NOTICE   main:     65585640           1           1        -600   103.592819       145.645859      0.974517465    
+  NOTICE   main:     65585640           2           1        -600   101.093246       146.631607      0.956644893    
+  NOTICE   main:     65585640           3           1        -600   99.7740860       146.113663      0.946483612    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   11   10   96  141
+  NOTICE metpos: (mtime,ftime) -     65585580    65585700
+  NOTICE metinp: ECMG 134349   10   10   98  140 65585580 24  9 12 13
+  NOTICE   main:     65585620           1           1        -620   103.352280       146.116928      0.976794064    
+  NOTICE   main:     65585620           2           1        -620   100.625305       147.186188      0.958433330    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   11   10   96  141 shift
+  NOTICE advpnt: (kg,nx,ny,nz) -     1   11   10   23
+  NOTICE metgrd: (kg, xyr,xy1) -     1   11   10   96  141
+  NOTICE metinp: ECMG 134473   11   10   96  141 65585640 24  9 12 14
+  NOTICE metinp: ECMG 134349   11   10   96  141 65585580 24  9 12 13
+  NOTICE   main:     65585620           3           1        -620   99.2525024       146.701126      0.946858466    
+  NOTICE   main:     65585600           1           1        -640   103.114975       146.630447      0.978278279    
+  NOTICE   main:     65585600           2           1        -640   100.166786       147.759933      0.960686386    
+  NOTICE   main:     65585600           3           1        -640   98.7332230       147.302582      0.947858751    
+  NOTICE   main:     65585580           1           1        -660   102.867767       147.208069      0.978836119    
+  NOTICE   main:     65585580           2           1        -660   99.7084885       148.351395      0.963644147    
+  NOTICE   main:     65585580           3           1        -660   98.2149963       147.903610      0.949311614    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   12   10   95  143
+  NOTICE metpos: (mtime,ftime) -     65585520    65585640
+  NOTICE metinp: ECMG 134225   11   10   96  141 65585520 24  9 12 12
+  NOTICE   main:     65585560           1           1        -680   102.608269       147.819427      0.978762686    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   12   10   95  143 shift
+  NOTICE advpnt: (kg,nx,ny,nz) -     1   12   10   23
+  NOTICE metgrd: (kg, xyr,xy1) -     1   12   10   95  143
+  NOTICE metinp: ECMG 134349   12   10   95  143 65585580 24  9 12 13
+  NOTICE metinp: ECMG 134225   12   10   95  143 65585520 24  9 12 12
+  NOTICE   main:     65585560           2           1        -680   99.2644196       148.958740      0.966870844    
+  NOTICE   main:     65585560           3           1        -680   97.7040405       148.502533      0.951378405    
+  NOTICE   main:     65585540           1           1        -700   102.345161       148.427856      0.978299916    
+  NOTICE   main:     65585540           2           1        -700   98.8563309       149.581696      0.969779193    
+  NOTICE   main:     65585540           3           1        -700   97.2039413       149.098618      0.953874648    
+  NOTICE   main:     65585520           1           1        -720   102.077957       149.030197      0.977420509    
+  NOTICE   main:     65585520           2           1        -720   98.4787979       150.227615      0.972033918    
+  NOTICE   main:     65585520           3           1        -720   96.7121735       149.686722      0.956585228    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   14   10   93  145
+  NOTICE metpos: (mtime,ftime) -     65585460    65585580
+  NOTICE metinp: ECMG 134101   12   10   95  143 65585460 24  9 12 11
+  NOTICE   main:     65585500           1           1        -740   101.806740       149.624496      0.976210594    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   14   10   93  145 shift
+  NOTICE advpnt: (kg,nx,ny,nz) -     1   14   10   23
+  NOTICE metgrd: (kg, xyr,xy1) -     1   14   10   93  145
+  NOTICE metinp: ECMG 134225   14   10   93  145 65585520 24  9 12 12
+  NOTICE metinp: ECMG 134101   14   10   93  145 65585460 24  9 12 11
+  NOTICE   main:     65585500           2           1        -740   98.1252365       150.895203      0.973178923    
+  NOTICE   main:     65585500           3           1        -740   96.2394943       150.266281      0.959775984    
+  NOTICE   main:     65585480           1           1        -760   101.529510       150.210526      0.974843383    
+  NOTICE   main:     65585480           2           1        -760   97.7937012       151.572815      0.973281860    
+  NOTICE   main:     65585480           3           1        -760   95.7957001       150.844971      0.963770390    
+  NOTICE   main:     65585460           1           1        -780   101.248360       150.786942      0.973622620    
+  NOTICE   main:     65585460           2           1        -780   97.4841843       152.248138      0.973013341    
+  NOTICE   main:     65585460           3           1        -780   95.3850250       151.423111      0.968573749    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   14   10   92  147
+  NOTICE metpos: (mtime,ftime) -     65585400    65585520
+  NOTICE metinp: ECMG 133977   14   10   93  145 65585400 24  9 12 10
+  NOTICE   main:     65585440           1           1        -800   100.965302       151.351425      0.972712457    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   14   10   92  147 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   14   10   92  147
+  NOTICE metinp: ECMG 134101   14   10   92  147 65585460 24  9 12 11
+  NOTICE metinp: ECMG 133977   14   10   92  147 65585400 24  9 12 10
+  NOTICE   main:     65585440           2           1        -800   97.2035446       152.914658      0.972972393    
+  NOTICE   main:     65585440           3           1        -800   95.0253906       152.005447      0.973248184    
+  NOTICE   main:     65585420           1           1        -820   100.682541       151.902054      0.972197533    
+  NOTICE   main:     65585420           2           1        -820   96.9535141       153.569885      0.973471224    
+  NOTICE   main:     65585420           3           1        -820   94.7150421       152.602509      0.976579785    
+  NOTICE   main:     65585400           1           1        -840   100.404404       152.441620      0.971951127    
+  NOTICE   main:     65585400           2           1        -840   96.7253647       154.209915      0.974494815    
+  NOTICE   main:     65585400           3           1        -840   94.4267349       153.229538      0.978054523    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   14   10   91  149
+  NOTICE metpos: (mtime,ftime) -     65585340    65585460
+  NOTICE metinp: ECMG 133853   14   10   92  147 65585340 24  9 12  9
+  NOTICE   main:     65585380           1           1        -860   100.135323       152.969421      0.971713126    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   14   10   91  149 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   14   10   91  149
+  NOTICE metinp: ECMG 133977   14   10   91  149 65585400 24  9 12 10
+  NOTICE metinp: ECMG 133853   14   10   91  149 65585340 24  9 12  9
+  NOTICE   main:     65585380           2           1        -860   96.5395508       154.825806      0.975680232    
+  NOTICE   main:     65585380           3           1        -860   94.1559830       153.891724      0.977989197    
+  NOTICE   main:     65585360           1           1        -880   99.8797150       153.488251      0.971468985    
+  NOTICE   main:     65585360           2           1        -880   96.4127045       155.419418      0.976808012    
+  NOTICE   main:     65585360           3           1        -880   93.9093323       154.575653      0.977122605    
+  NOTICE   main:     65585340           1           1        -900   99.6369629       154.006470      0.971336424    
+  NOTICE   main:     65585340           2           1        -900   96.3284073       155.999283      0.977960229    
+  NOTICE   main:     65585340           3           1        -900   93.6839218       155.268280      0.976068497    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   14   10   90  150
+  NOTICE metpos: (mtime,ftime) -     65585280    65585400
+  NOTICE metinp: ECMG 133729   14   10   91  149 65585280 24  9 12  8
+  NOTICE   main:     65585320           1           1        -920   99.3970490       154.524994      0.971190095    
+  NOTICE   main:     65585320           2           1        -920   96.2652206       156.563690      0.979187012    
+  NOTICE   main:     65585320           3           1        -920   93.4797745       155.955292      0.975142062    
+  NOTICE   main:     65585300           1           1        -940   99.1446533       155.043259      0.970943153    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   14   10   90  150 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   14   10   90  150
+  NOTICE metinp: ECMG 133853   14   10   90  150 65585340 24  9 12  9
+  NOTICE metinp: ECMG 133729   14   10   90  150 65585280 24  9 12  8
+  NOTICE   main:     65585300           2           1        -940   96.2076874       157.110321      0.980447054    
+  NOTICE   main:     65585300           3           1        -940   93.2973328       156.629120      0.974512935    
+  NOTICE   main:     65585280           1           1        -960   98.8828735       155.560791      0.970952630    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   21   15   87  148 expand
+  NOTICE advpnt: (kg,nx,ny,nz) -     1   21   15   23
+  NOTICE metgrd: (kg, xyr,xy1) -     1   21   15   87  148
+  NOTICE metinp: ECMG 133853   21   15   87  148 65585340 24  9 12  9
+  NOTICE metinp: ECMG 133729   21   15   87  148 65585280 24  9 12  8
+  NOTICE   main:     65585280           2           1        -960   96.1506882       157.639862      0.981624305    
+  NOTICE   main:     65585280           3           1        -960   93.1394348       157.288513      0.974279165    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15   86  149
+  NOTICE metpos: (mtime,ftime) -     65585220    65585340
+  NOTICE metinp: ECMG 133605   21   15   87  148 65585220 24  9 12  7
+  NOTICE   main:     65585260           1           1        -980   98.6294861       156.073700      0.971442521    
+  NOTICE   main:     65585260           2           1        -980   96.0921631       158.148941      0.982661426    
+  NOTICE   main:     65585260           3           1        -980   93.0089722       157.927765      0.974473953    
+  NOTICE   main:     65585240           1           1       -1000   98.3950424       156.576401      0.972310841    
+  NOTICE   main:     65585240           2           1       -1000   96.0354156       158.632095      0.983466446    
+  NOTICE   main:     65585240           3           1       -1000   92.9046326       158.551895      0.974867404    
+  NOTICE   main:     65585220           1           1       -1020   98.1752777       157.066986      0.973306477    
+  NOTICE   main:     65585220           2           1       -1020   95.9798431       159.091751      0.983983934    
+  NOTICE   main:     65585220           3           1       -1020   92.8226700       159.167114      0.975136101    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15   85  151
+  NOTICE metpos: (mtime,ftime) -     65585160    65585280
+  NOTICE metinp: ECMG 133481   21   15   87  148 65585160 24  9 12  6
+  NOTICE   main:     65585200           1           1       -1040   97.9660721       157.549240      0.974343598    
+  NOTICE   main:     65585200           2           1       -1040   95.9183731       159.535156      0.984367430    
+  NOTICE   main:     65585200           3           1       -1040   92.7597580       159.778381      0.975139380    
+  NOTICE   main:     65585180           1           1       -1060   97.7704315       158.024918      0.975369632    
+  NOTICE   main:     65585180           2           1       -1060   95.8477097       159.966507      0.984751940    
+  NOTICE   main:     65585180           3           1       -1060   92.7129440       160.388443      0.975116730    
+  NOTICE   main:     65585160           1           1       -1080   97.5883865       158.493988      0.976215482    
+  NOTICE   main:     65585160           2           1       -1080   95.7693558       160.386887      0.985126555    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   21   15   85  151 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   21   15   85  151
+  NOTICE metinp: ECMG 133605   21   15   85  151 65585220 24  9 12  7
+  NOTICE metinp: ECMG 133481   21   15   85  151 65585160 24  9 12  6
+  NOTICE   main:     65585160           3           1       -1080   92.6843567       160.990952      0.975609243    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15   85  152
+  NOTICE metpos: (mtime,ftime) -     65585100    65585220
+  NOTICE metinp: ECMG 133357   21   15   85  151 65585100 24  9 12  5
+  NOTICE   main:     65585140           1           1       -1100   97.4217072       158.959198      0.976913631    
+  NOTICE   main:     65585140           2           1       -1100   95.6869278       160.801254      0.985523939    
+  NOTICE   main:     65585140           3           1       -1100   92.6725616       161.580536      0.976458848    
+  NOTICE   main:     65585120           1           1       -1120   97.2745209       159.420593      0.977639139    
+  NOTICE   main:     65585120           2           1       -1120   95.6039352       161.211777      0.985925555    
+  NOTICE   main:     65585120           3           1       -1120   92.6733017       162.157654      0.977227747    
+  NOTICE   main:     65585100           1           1       -1140   97.1465912       159.878265      0.978478551    
+  NOTICE   main:     65585100           2           1       -1140   95.5194016       161.619232      0.986216605    
+  NOTICE   main:     65585100           3           1       -1140   92.6850433       162.727005      0.977668643    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15   85  154
+  NOTICE metpos: (mtime,ftime) -     65585040    65585160
+  NOTICE metinp: ECMG 133233   21   15   85  151 65585040 24  9 12  4
+  NOTICE   main:     65585080           1           1       -1160   97.0408630       160.333984      0.979402840    
+  NOTICE   main:     65585080           2           1       -1160   95.4362106       162.028778      0.986394346    
+  NOTICE   main:     65585080           3           1       -1160   92.7047195       163.296539      0.977661312    
+  NOTICE   main:     65585060           1           1       -1180   96.9583969       160.789185      0.980329156    
+  NOTICE   main:     65585060           2           1       -1180   95.3579330       162.445953      0.986514628    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   21   15   85  154 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   21   15   85  154
+  NOTICE metinp: ECMG 133357   21   15   85  154 65585100 24  9 12  5
+  NOTICE metinp: ECMG 133233   21   15   85  154 65585040 24  9 12  4
+  NOTICE   main:     65585060           3           1       -1180   92.7312546       163.871323      0.977341652    
+  NOTICE   main:     65585040           1           1       -1200   96.8934174       161.244766      0.981190085    
+  NOTICE   main:     65585040           2           1       -1200   95.2832108       162.873581      0.986588359    
+  NOTICE   main:     65585040           3           1       -1200   92.7668686       164.446594      0.976759672    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15   84  156
+  NOTICE metpos: (mtime,ftime) -     65584980    65585100
+  NOTICE metinp: ECMG 133109   21   15   85  154 65584980 24  9 12  3
+  NOTICE   main:     65585020           1           1       -1220   96.8431625       161.699890      0.981917143    
+  NOTICE   main:     65585020           2           1       -1220   95.2142639       163.310165      0.986642182    
+  NOTICE   main:     65585020           3           1       -1220   92.8125687       165.018631      0.975880682    
+  NOTICE   main:     65585000           1           1       -1240   96.8090744       162.154419      0.982488453    
+  NOTICE   main:     65585000           2           1       -1240   95.1530228       163.752930      0.986723602    
+  NOTICE   main:     65585000           3           1       -1240   92.8698578       165.588943      0.974675536    
+  NOTICE   main:     65584980           1           1       -1260   96.7896805       162.610565      0.982939959    
+  NOTICE   main:     65584980           2           1       -1260   95.0966339       164.201782      0.986861765    
+  NOTICE   main:     65584980           3           1       -1260   92.9406738       166.156235      0.973161995    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15   84  157
+  NOTICE metpos: (mtime,ftime) -     65584920    65585040
+  NOTICE metinp: ECMG 132985   21   15   85  154 65584920 24  9 12  2
+  NOTICE   main:     65584960           1           1       -1280   96.7822037       163.065292      0.983295858    
+  NOTICE   main:     65584960           2           1       -1280   95.0421982       164.652740      0.987043083    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   21   15   84  157 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   21   15   84  157
+  NOTICE metinp: ECMG 133109   21   15   84  157 65584980 24  9 12  3
+  NOTICE metinp: ECMG 132985   21   15   84  157 65584920 24  9 12  2
+  NOTICE   main:     65584960           3           1       -1280   93.0226059       166.719757      0.971414685    
+  NOTICE   main:     65584940           1           1       -1300   96.7871399       163.512726      0.983575165    
+  NOTICE   main:     65584940           2           1       -1300   94.9864883       165.103241      0.987242103    
+  NOTICE   main:     65584940           3           1       -1300   93.1120758       167.279449      0.969386816    
+  NOTICE   main:     65584920           1           1       -1320   96.8066177       163.952789      0.983821809    
+  NOTICE   main:     65584920           2           1       -1320   94.9292145       165.556046      0.987425327    
+  NOTICE   main:     65584920           3           1       -1320   93.2076035       167.833115      0.966919422    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15   85  158
+  NOTICE metpos: (mtime,ftime) -     65584860    65584980
+  NOTICE metinp: ECMG 132861   21   15   84  157 65584860 24  9 12  1
+  NOTICE   main:     65584900           1           1       -1340   96.8418198       164.384583      0.984097362    
+  NOTICE   main:     65584900           2           1       -1340   94.8725815       166.013123      0.987577021    
+  NOTICE   main:     65584900           3           1       -1340   93.3052292       168.382523      0.964004815    
+  NOTICE   main:     65584880           1           1       -1360   96.8957520       164.806549      0.984468997    
+  NOTICE   main:     65584880           2           1       -1360   94.8183441       166.475784      0.987646878    
+  NOTICE   main:     65584880           3           1       -1360   93.4021378       168.929199      0.960693777    
+  NOTICE   main:     65584860           1           1       -1380   96.9718246       165.219620      0.984977543    
+  NOTICE   main:     65584860           2           1       -1380   94.7648926       166.949234      0.987562418    
+  NOTICE   main:     65584860           3           1       -1380   93.4986954       169.472870      0.956953049    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15   85  160
+  NOTICE metpos: (mtime,ftime) -     65584800    65584920
+  NOTICE metinp: ECMG 132737   21   15   84  157 65584800 24  9 12  0
+  NOTICE   main:     65584840           1           1       -1400   97.0676498       165.620560      0.985527158    
+  NOTICE   main:     65584840           2           1       -1400   94.7160339       167.432251      0.987280011    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   21   15   85  160 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   21   15   85  160
+  NOTICE metinp: ECMG 132861   21   15   85  160 65584860 24  9 12  1
+  NOTICE metinp: ECMG 132737   21   15   85  160 65584800 24  9 12  0
+  NOTICE   main:     65584840           3           1       -1400   93.5931931       170.012634      0.952779114    
+  NOTICE   main:     65584820           1           1       -1420   97.1810989       166.009125      0.986036003    
+  NOTICE   main:     65584820           2           1       -1420   94.6750793       167.922180      0.986782253    
+  NOTICE   main:     65584820           3           1       -1420   93.6827011       170.546906      0.948277175    
+  NOTICE   main:     65584800           1           1       -1440   97.3126755       166.388245      0.986527443    
+  NOTICE   main:     65584800           2           1       -1440   94.6420288       168.420547      0.986047089    
+  NOTICE   main:     65584800           3           1       -1440   93.7689819       171.076050      0.943554342    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15   85  162
+  NOTICE metpos: (mtime,ftime) -     65584740    65584860
+  NOTICE metinp: ECMG 132613   21   15   85  160 65584740 24  9 11 23
+  NOTICE   main:     65584780           1           1       -1460   97.4576187       166.758194      0.986972511    
+  NOTICE   main:     65584780           2           1       -1460   94.6208572       168.925690      0.985031843    
+  NOTICE   main:     65584780           3           1       -1460   93.8512726       171.600769      0.938757300    
+  NOTICE   main:     65584760           1           1       -1480   97.6147156       167.120102      0.987336695    
+  NOTICE   main:     65584760           2           1       -1480   94.6145401       169.435181      0.983731925    
+  NOTICE   main:     65584760           3           1       -1480   93.9291000       172.121277      0.934076369    
+  NOTICE   main:     65584740           1           1       -1500   97.7865829       167.476562      0.987623990    
+  NOTICE   main:     65584740           2           1       -1500   94.6215057       169.948822      0.982154965    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   21   15   85  162 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   21   15   85  162
+  NOTICE metinp: ECMG 132737   21   15   85  162 65584800 24  9 12  0
+  NOTICE metinp: ECMG 132613   21   15   85  162 65584740 24  9 11 23
+  NOTICE   main:     65584740           3           1       -1500   94.0085068       172.638336      0.929595888    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15   86  163
+  NOTICE metpos: (mtime,ftime) -     65584680    65584800
+  NOTICE metinp: ECMG 132489   21   15   85  162 65584680 24  9 11 22
+  NOTICE   main:     65584720           1           1       -1520   97.9708099       167.827301      0.987902224    
+  NOTICE   main:     65584720           2           1       -1520   94.6443787       170.454620      0.980334044    
+  NOTICE   main:     65584720           3           1       -1520   94.0899048       173.149857      0.925435543    
+  NOTICE   main:     65584700           1           1       -1540   98.1580200       168.168335      0.988166869    
+  NOTICE   main:     65584700           2           1       -1540   94.6839523       170.944885      0.978327930    
+  NOTICE   main:     65584700           3           1       -1540   94.1695175       173.653610      0.921638548    
+  NOTICE   main:     65584680           1           1       -1560   98.3412704       168.497421      0.988344669    
+  NOTICE   main:     65584680           2           1       -1560   94.7363968       171.424500      0.976173639    
+  NOTICE   main:     65584680           3           1       -1560   94.2494507       174.150162      0.918109894    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15   86  164
+  NOTICE metpos: (mtime,ftime) -     65584620    65584740
+  NOTICE metinp: ECMG 132365   21   15   85  162 65584620 24  9 11 21
+  NOTICE   main:     65584660           1           1       -1580   98.5130463       168.811340      0.988382995    
+  NOTICE   main:     65584660           2           1       -1580   94.7980042       171.885056      0.973842800    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   21   15   86  164 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   21   15   86  164
+  NOTICE metinp: ECMG 132489   21   15   86  164 65584680 24  9 11 22
+  NOTICE metinp: ECMG 132365   21   15   86  164 65584620 24  9 11 21
+  NOTICE   main:     65584660           3           1       -1580   94.3249054       174.625198      0.914851844    
+  NOTICE   main:     65584640           1           1       -1600   98.6666260       169.108826      0.988267601    
+  NOTICE   main:     65584640           2           1       -1600   94.8655090       172.315094      0.971340418    
+  NOTICE   main:     65584640           3           1       -1600   94.3879318       175.064911      0.911891043    
+  NOTICE   main:     65584620           1           1       -1620   98.8022842       169.391876      0.988024056    
+  NOTICE   main:     65584620           2           1       -1620   94.9365997       172.714920      0.968770921    
+  NOTICE   main:     65584620           3           1       -1620   94.4376984       175.470810      0.909127533    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15   86  165
+  NOTICE metpos: (mtime,ftime) -     65584560    65584680
+  NOTICE metinp: ECMG 132241   21   15   86  164 65584560 24  9 11 20
+  NOTICE   main:     65584590           1           1       -1650   98.9851303       169.809738      0.987536252    
+  NOTICE   main:     65584590           2           1       -1650   95.0423508       173.283508      0.965124607    
+  NOTICE   main:     65584590           3           1       -1650   94.4993820       176.047470      0.905420125    
+  NOTICE   main:     65584560           1           1       -1680   99.1451187       170.233078      0.987007976    
+  NOTICE   main:     65584560           2           1       -1680   95.1418457       173.833649      0.962156653    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   21   15   86  165 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   21   15   86  165
+  NOTICE metinp: ECMG 132365   21   15   86  165 65584620 24  9 11 21
+  NOTICE metinp: ECMG 132241   21   15   86  165 65584560 24  9 11 20
+  NOTICE   main:     65584560           3           1       -1680   94.5610580       176.608490      0.902235389    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15   87  166
+  NOTICE metpos: (mtime,ftime) -     65584500    65584620
+  NOTICE metinp: ECMG 132117   21   15   86  165 65584500 24  9 11 19
+  NOTICE   main:     65584530           1           1       -1710   99.2853546       170.660614      0.986475229    
+  NOTICE   main:     65584530           2           1       -1710   95.2373962       174.377213      0.959687710    
+  NOTICE   main:     65584530           3           1       -1710   94.6198120       177.161819      0.899258494    
+  NOTICE   main:     65584500           1           1       -1740   99.4175491       171.091263      0.985925913    
+  NOTICE   main:     65584500           2           1       -1740   95.3319168       174.924561      0.957226217    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   21   15   87  166 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   21   15   87  166
+  NOTICE metinp: ECMG 132241   21   15   87  166 65584560 24  9 11 20
+  NOTICE metinp: ECMG 132117   21   15   87  166 65584500 24  9 11 19
+  NOTICE   main:     65584500           3           1       -1740   94.6679993       177.715195      0.896375597    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15   87  167
+  NOTICE metpos: (mtime,ftime) -     65584440    65584560
+  NOTICE metinp: ECMG 131993   21   15   87  166 65584440 24  9 11 18
+  NOTICE   main:     65584470           1           1       -1770   99.5451508       171.525620      0.985382974    
+  NOTICE   main:     65584470           2           1       -1770   95.4242172       175.476578      0.954719126    
+  NOTICE   main:     65584470           3           1       -1770   94.7091217       178.268433      0.893686831    
+  NOTICE   main:     65584440           1           1       -1800   99.6725006       171.965561      0.984811723    
+  NOTICE   main:     65584440           2           1       -1800   95.5139847       176.036835      0.952148616    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   21   15   87  167 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   21   15   87  167
+  NOTICE metinp: ECMG 132117   21   15   87  167 65584500 24  9 11 19
+  NOTICE metinp: ECMG 131993   21   15   87  167 65584440 24  9 11 18
+  NOTICE   main:     65584440           3           1       -1800   94.7475586       178.821808      0.891216576    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15   87  168
+  NOTICE metpos: (mtime,ftime) -     65584380    65584500
+  NOTICE metinp: ECMG 131869   21   15   87  167 65584380 24  9 11 17
+  NOTICE   main:     65584410           1           1       -1830   99.8044586       172.415619      0.984066904    
+  NOTICE   main:     65584410           2           1       -1830   95.6036987       176.609970      0.949580193    
+  NOTICE   main:     65584410           3           1       -1830   94.7886505       179.371140      0.888865352    
+  NOTICE   main:     65584380           1           1       -1860   99.9456482       172.879501      0.982870519    
+  NOTICE   main:     65584380           2           1       -1860   95.6964188       177.199966      0.947126508    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   21   15   87  168 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   21   15   87  168
+  NOTICE metinp: ECMG 131993   21   15   87  168 65584440 24  9 11 18
+  NOTICE metinp: ECMG 131869   21   15   87  168 65584380 24  9 11 17
+  NOTICE   main:     65584380           3           1       -1860   94.8370209       179.913055      0.886568487    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15   87  169
+  NOTICE metpos: (mtime,ftime) -     65584320    65584440
+  NOTICE metinp: ECMG 131745   21   15   87  168 65584320 24  9 11 16
+  NOTICE   main:     65584350           1           1       -1890   100.109940       173.361862      0.981028378    
+  NOTICE   main:     65584350           2           1       -1890   95.7964478       177.810516      0.944679916    
+  NOTICE   main:     65584350           3           1       -1890   94.8970032       180.446686      0.884668767    
+  NOTICE   main:     65584320           1           1       -1920   100.305199       173.864868      0.978508234    
+  NOTICE   main:     65584320           2           1       -1920   95.9091034       178.439484      0.942032278    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   21   15   87  169 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   21   15   87  169
+  NOTICE metinp: ECMG 131869   21   15   87  169 65584380 24  9 11 17
+  NOTICE metinp: ECMG 131745   21   15   87  169 65584320 24  9 11 16
+  NOTICE   main:     65584320           3           1       -1920   94.9733276       180.975296      0.883429408    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15   87  170
+  NOTICE metpos: (mtime,ftime) -     65584260    65584380
+  NOTICE metinp: ECMG 131621   21   15   87  169 65584260 24  9 11 15
+  NOTICE   main:     65584290           1           1       -1950   100.553711       174.385849      0.975406885    
+  NOTICE   main:     65584290           2           1       -1950   96.0429153       179.095413      0.939329922    
+  NOTICE   main:     65584290           3           1       -1950   95.0619888       181.493332      0.882757366    
+  NOTICE   main:     65584260           1           1       -1980   100.879234       174.927368      0.972110629    
+  NOTICE   main:     65584260           2           1       -1980   96.2080536       179.787201      0.936952353    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   21   15   87  170 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   21   15   87  170
+  NOTICE metinp: ECMG 131745   21   15   87  170 65584320 24  9 11 16
+  NOTICE metinp: ECMG 131621   21   15   87  170 65584260 24  9 11 15
+  NOTICE   main:     65584260           3           1       -1980   95.1572723       181.995361      0.882431567    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15   88  171
+  NOTICE metpos: (mtime,ftime) -     65584200    65584320
+  NOTICE metinp: ECMG 131497   21   15   87  170 65584200 24  9 11 14
+  NOTICE   main:     65584230           1           1       -2010   101.261696       175.525055      0.969241023    
+  NOTICE   main:     65584230           2           1       -2010   96.3904800       180.495789      0.935519814    
+  NOTICE   main:     65584230           3           1       -2010   95.2612686       182.476196      0.882147491    
+  NOTICE   main:     65584200           1           1       -2040   101.676300       176.195084      0.967284679    
+  NOTICE   main:     65584200           2           1       -2040   96.5759735       181.208069      0.935399413    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   21   15   88  171 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   21   15   88  171
+  NOTICE metinp: ECMG 131621   21   15   88  171 65584260 24  9 11 15
+  NOTICE metinp: ECMG 131497   21   15   88  171 65584200 24  9 11 14
+  NOTICE   main:     65584200           3           1       -2040   95.3739700       182.924820      0.881624281    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15   88  172
+  NOTICE metpos: (mtime,ftime) -     65584140    65584260
+  NOTICE metinp: ECMG 131373   21   15   88  171 65584140 24  9 11 13
+  NOTICE   main:     65584170           1           1       -2070   102.117599       176.903549      0.965571702    
+  NOTICE   main:     65584170           2           1       -2070   96.7718201       181.907867      0.936227620    
+  NOTICE   main:     65584170           3           1       -2070   95.4929504       183.345062      0.880933166    
+  NOTICE   main:     65584140           1           1       -2100   102.613548       177.657578      0.963664770    
+  NOTICE   main:     65584140           2           1       -2100   96.9758301       182.575348      0.937787652    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   21   15   88  172 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   21   15   88  172
+  NOTICE metinp: ECMG 131497   21   15   88  172 65584200 24  9 11 14
+  NOTICE metinp: ECMG 131373   21   15   88  172 65584140 24  9 11 13
+  NOTICE   main:     65584140           3           1       -2100   95.6190643       183.743332      0.880151689    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15   89  173
+  NOTICE metpos: (mtime,ftime) -     65584080    65584200
+  NOTICE metinp: ECMG 131249   21   15   88  172 65584080 24  9 11 12
+  NOTICE   main:     65584110           1           1       -2130   103.149857       178.418228      0.962208927    
+  NOTICE   main:     65584110           2           1       -2130   97.1800995       183.212143      0.939903140    
+  NOTICE   main:     65584110           3           1       -2130   95.7531815       184.120193      0.879285991    
+  NOTICE   main:     65584080           1           1       -2160   103.673592       179.113281      0.960740209    
+  NOTICE   main:     65584080           2           1       -2160   97.3867722       183.818329      0.942007899    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   21   15   89  173 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   21   15   89  173
+  NOTICE metinp: ECMG 131373   21   15   89  173 65584140 24  9 11 13
+  NOTICE metinp: ECMG 131249   21   15   89  173 65584080 24  9 11 12
+  NOTICE   main:     65584080           3           1       -2160   95.8971176       184.479630      0.878483355    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15   89  175
+  NOTICE metpos: (mtime,ftime) -     65584020    65584140
+  NOTICE metinp: ECMG 131125   21   15   89  173 65584020 24  9 11 11
+  NOTICE   main:     65584050           1           1       -2190   104.188522       179.738663      0.959325790    
+  NOTICE   main:     65584050           2           1       -2190   97.6016998       184.395233      0.943653643    
+  NOTICE   main:     65584050           3           1       -2190   96.0509949       184.829865      0.877699792    
+  NOTICE   main:     65584020           1           1       -2220   104.707886       180.304565      0.958879590    
+  NOTICE   main:     65584020           2           1       -2220   97.8245697       184.943222      0.944618225    
+  NOTICE   main:     65584020           3           1       -2220   96.2135162       185.173370      0.876858175    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15   90  176
+  NOTICE metpos: (mtime,ftime) -     65583960    65584080
+  NOTICE metinp: ECMG 131001   21   15   89  173 65583960 24  9 11 10
+  NOTICE   main:     65583990           1           1       -2250   105.238869       180.827118      0.959641755    
+  NOTICE   main:     65583990           2           1       -2250   98.0589752       185.465805      0.945354223    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   21   15   90  176 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   21   15   90  176
+  NOTICE metinp: ECMG 131125   21   15   90  176 65584020 24  9 11 11
+  NOTICE metinp: ECMG 131001   21   15   90  176 65583960 24  9 11 10
+  NOTICE   main:     65583990           3           1       -2250   96.3836746       185.509705      0.876326919    
+  NOTICE   main:     65583960           1           1       -2280   105.790314       181.313217      0.960876226    
+  NOTICE   main:     65583960           2           1       -2280   98.3148041       185.973648      0.946500301    
+  NOTICE   main:     65583960           3           1       -2280   96.5597153       185.842560      0.876450479    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15   91  176
+  NOTICE metpos: (mtime,ftime) -     65583900    65584020
+  NOTICE metinp: ECMG 130877   21   15   90  176 65583900 24  9 11  9
+  NOTICE   main:     65583930           1           1       -2310   106.356468       181.768402      0.961940885    
+  NOTICE   main:     65583930           2           1       -2310   98.5976868       186.474136      0.948113501    
+  NOTICE   main:     65583930           3           1       -2310   96.7538910       186.161774      0.876961887    
+  NOTICE   main:     65583900           1           1       -2340   106.934006       182.200562      0.963185549    
+  NOTICE   main:     65583900           2           1       -2340   98.9077606       186.969589      0.950026572    
+  NOTICE   main:     65583900           3           1       -2340   96.9779129       186.453400      0.877578497    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15   91  177
+  NOTICE metpos: (mtime,ftime) -     65583840    65583960
+  NOTICE metinp: ECMG 130753   21   15   90  176 65583840 24  9 11  8
+  NOTICE   main:     65583870           1           1       -2370   107.528748       182.610672      0.964972198    
+  NOTICE   main:     65583870           2           1       -2370   99.2367859       187.450043      0.952138662    
+  NOTICE   main:     65583870           3           1       -2370   97.2210464       186.726837      0.878314853    
+  NOTICE   main:     65583840           1           1       -2400   108.139664       183.002228      0.967021883    
+  NOTICE   main:     65583840           2           1       -2400   99.5846786       187.908371      0.954203069    
+  NOTICE   main:     65583840           3           1       -2400   97.4738083       186.994614      0.879214585    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15   93  178
+  NOTICE metpos: (mtime,ftime) -     65583780    65583900
+  NOTICE metsub: (kg ,xyr,xy1) -     1   21   15   93  178 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   21   15   93  178
+  NOTICE metinp: ECMG 130753   21   15   93  178 65583840 24  9 11  8
+  NOTICE metinp: ECMG 130629   21   15   93  178 65583780 24  9 11  7
+  NOTICE   main:     65583810           1           1       -2430   108.760315       183.381226      0.968440831    
+  NOTICE   main:     65583810           2           1       -2430   99.9544754       188.344986      0.955978692    
+  NOTICE   main:     65583810           3           1       -2430   97.7369919       187.258026      0.880122185    
+  NOTICE   main:     65583780           1           1       -2460   109.376534       183.745209      0.968863904    
+  NOTICE   main:     65583780           2           1       -2460   100.341972       188.759857      0.957375526    
+  NOTICE   main:     65583780           3           1       -2460   98.0128326       187.516571      0.880959511    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15   94  179
+  NOTICE metpos: (mtime,ftime) -     65583720    65583840
+  NOTICE metinp: ECMG 130505   21   15   93  178 65583720 24  9 11  6
+  NOTICE   main:     65583750           1           1       -2490   109.982315       184.091370      0.968836427    
+  NOTICE   main:     65583750           2           1       -2490   100.738388       189.150360      0.958329499    
+  NOTICE   main:     65583750           3           1       -2490   98.2983856       187.771835      0.881807923    
+  NOTICE   main:     65583720           1           1       -2520   110.566246       184.416428      0.968495488    
+  NOTICE   main:     65583720           2           1       -2520   101.136871       189.516006      0.958989501    
+  NOTICE   main:     65583720           3           1       -2520   98.5893402       188.026016      0.882652998    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15   94  180
+  NOTICE metpos: (mtime,ftime) -     65583660    65583780
+  NOTICE metinp: ECMG 130381   21   15   93  178 65583660 24  9 11  5
+  NOTICE   main:     65583690           1           1       -2550   111.118721       184.717270      0.967630446    
+  NOTICE   main:     65583690           2           1       -2550   101.532448       189.858612      0.959552765    
+  NOTICE   main:     65583690           3           1       -2550   98.8858948       188.276245      0.883435130    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   21   15   94  180 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   21   15   94  180
+  NOTICE metinp: ECMG 130505   21   15   94  180 65583720 24  9 11  6
+  NOTICE metinp: ECMG 130381   21   15   94  180 65583660 24  9 11  5
+  NOTICE   main:     65583660           1           1       -2580   111.644394       184.997925      0.966317713    
+  NOTICE   main:     65583660           2           1       -2580   101.923660       190.181015      0.960097730    
+  NOTICE   main:     65583660           3           1       -2580   99.1861572       188.519501      0.884078085    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15   95  180
+  NOTICE metpos: (mtime,ftime) -     65583600    65583720
+  NOTICE metinp: ECMG 130257   21   15   94  180 65583600 24  9 11  4
+  NOTICE   main:     65583630           1           1       -2610   112.153549       185.266708      0.964905500    
+  NOTICE   main:     65583630           2           1       -2610   102.314026       190.483337      0.960643470    
+  NOTICE   main:     65583630           3           1       -2610   99.4868851       188.751266      0.884619415    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   21   15   95  180 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   21   15   95  180
+  NOTICE metinp: ECMG 130381   21   15   95  180 65583660 24  9 11  5
+  NOTICE metinp: ECMG 130257   21   15   95  180 65583600 24  9 11  4
+  NOTICE   main:     65583600           1           1       -2640   112.654343       185.527390      0.963774443    
+  NOTICE   main:     65583600           2           1       -2640   102.707390       190.764877      0.961164892    
+  NOTICE   main:     65583600           3           1       -2640   99.7881927       188.969437      0.885124922    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15   96  181
+  NOTICE metpos: (mtime,ftime) -     65583540    65583660
+  NOTICE metinp: ECMG 130133   21   15   95  180 65583540 24  9 11  3
+  NOTICE   main:     65583570           1           1       -2670   113.150467       185.779984      0.962797642    
+  NOTICE   main:     65583570           2           1       -2670   103.104889       191.026352      0.961454630    
+  NOTICE   main:     65583570           3           1       -2670   100.089256       189.174942      0.885563970    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   21   15   96  181 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   21   15   96  181
+  NOTICE metinp: ECMG 130257   21   15   96  181 65583600 24  9 11  4
+  NOTICE metinp: ECMG 130133   21   15   96  181 65583540 24  9 11  3
+  NOTICE   main:     65583540           1           1       -2700   113.633537       186.024216      0.961816669    
+  NOTICE   main:     65583540           2           1       -2700   103.503845       191.268692      0.961529136    
+  NOTICE   main:     65583540           3           1       -2700   100.393829       189.369156      0.885880053    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15   97  182
+  NOTICE metpos: (mtime,ftime) -     65583480    65583600
+  NOTICE metinp: ECMG 130009   21   15   96  181 65583480 24  9 11  2
+  NOTICE   main:     65583510           1           1       -2730   114.101402       186.259460      0.960918605    
+  NOTICE   main:     65583510           2           1       -2730   103.897583       191.491776      0.961541593    
+  NOTICE   main:     65583510           3           1       -2730   100.703629       189.554733      0.885936201    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   21   15   97  182 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   21   15   97  182
+  NOTICE metinp: ECMG 130133   21   15   97  182 65583540 24  9 11  3
+  NOTICE metinp: ECMG 130009   21   15   97  182 65583480 24  9 11  2
+  NOTICE   main:     65583480           1           1       -2760   114.557877       186.483643      0.960275590    
+  NOTICE   main:     65583480           2           1       -2760   104.280708       191.693207      0.961593568    
+  NOTICE   main:     65583480           3           1       -2760   101.020721       189.731400      0.885591447    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15   98  182
+  NOTICE metpos: (mtime,ftime) -     65583420    65583540
+  NOTICE metinp: ECMG 129885   21   15   97  182 65583420 24  9 11  1
+  NOTICE   main:     65583450           1           1       -2790   115.006683       186.695938      0.960037231    
+  NOTICE   main:     65583450           2           1       -2790   104.654175       191.875107      0.961646199    
+  NOTICE   main:     65583450           3           1       -2790   101.347206       189.902802      0.884818017    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   21   15   98  182 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   21   15   98  182
+  NOTICE metinp: ECMG 130009   21   15   98  182 65583480 24  9 11  2
+  NOTICE metinp: ECMG 129885   21   15   98  182 65583420 24  9 11  1
+  NOTICE   main:     65583420           1           1       -2820   115.449791       186.895569      0.960048318    
+  NOTICE   main:     65583420           2           1       -2820   105.017662       192.039062      0.961606622    
+  NOTICE   main:     65583420           3           1       -2820   101.685867       190.070358      0.883616984    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15   98  182
+  NOTICE metpos: (mtime,ftime) -     65583360    65583480
+  NOTICE metinp: ECMG 129761   21   15   98  182 65583360 24  9 11  0
+  NOTICE   main:     65583390           1           1       -2850   115.889862       187.080185      0.960420847    
+  NOTICE   main:     65583390           2           1       -2850   105.368530       192.187500      0.961472571    
+  NOTICE   main:     65583390           3           1       -2850   102.039711       190.227509      0.882322490    
+  NOTICE   main:     65583360           1           1       -2880   116.327972       187.247986      0.961042404    
+  NOTICE   main:     65583360           2           1       -2880   105.703522       192.322128      0.961252689    
+  NOTICE   main:     65583360           3           1       -2880   102.401779       190.368378      0.881204307    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15   99  183
+  NOTICE metpos: (mtime,ftime) -     65583300    65583420
+  NOTICE metsub: (kg ,xyr,xy1) -     1   21   15   99  183 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   21   15   99  183
+  NOTICE metinp: ECMG 129761   21   15   99  183 65583360 24  9 11  0
+  NOTICE metinp: ECMG 129637   21   15   99  183 65583300 24  9 10 23
+  NOTICE   main:     65583330           1           1       -2910   116.763908       187.404022      0.961514890    
+  NOTICE   main:     65583330           2           1       -2910   106.021347       192.449036      0.960962474    
+  NOTICE   main:     65583330           3           1       -2910   102.766235       190.491531      0.880148232    
+  NOTICE   main:     65583300           1           1       -2940   117.194901       187.552872      0.961827099    
+  NOTICE   main:     65583300           2           1       -2940   106.322670       192.577103      0.960545659    
+  NOTICE   main:     65583300           3           1       -2940   103.129662       190.596313      0.879097760    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15  100  183
+  NOTICE metpos: (mtime,ftime) -     65583240    65583360
+  NOTICE metsub: (kg ,xyr,xy1) -     1   21   15  100  183 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   21   15  100  183
+  NOTICE metinp: ECMG 129637   21   15  100  183 65583300 24  9 10 23
+  NOTICE metinp: ECMG 129513   21   15  100  183 65583240 24  9 10 22
+  NOTICE   main:     65583270           1           1       -2970   117.615273       187.695953      0.962077141    
+  NOTICE   main:     65583270           2           1       -2970   106.613655       192.706604      0.960099399    
+  NOTICE   main:     65583270           3           1       -2970   103.495079       190.682098      0.878080487    
+  NOTICE   main:     65583240           1           1       -3000   118.020531       187.832169      0.962374270    
+  NOTICE   main:     65583240           2           1       -3000   106.896790       192.835983      0.959708691    
+  NOTICE   main:     65583240           3           1       -3000   103.865952       190.746918      0.877077520    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15  101  183
+  NOTICE metpos: (mtime,ftime) -     65583180    65583300
+  NOTICE metsub: (kg ,xyr,xy1) -     1   21   15  101  183 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   21   15  101  183
+  NOTICE metinp: ECMG 129513   21   15  101  183 65583240 24  9 10 22
+  NOTICE metinp: ECMG 129389   21   15  101  183 65583180 24  9 10 21
+  NOTICE   main:     65583210           1           1       -3030   118.403053       187.949829      0.962642908    
+  NOTICE   main:     65583210           2           1       -3030   107.169403       192.958710      0.959270597    
+  NOTICE   main:     65583210           3           1       -3030   104.220543       190.787582      0.876177847    
+  NOTICE   main:     65583180           1           1       -3060   118.755028       188.039917      0.962612867    
+  NOTICE   main:     65583180           2           1       -3060   107.429787       193.068298      0.958753407    
+  NOTICE   main:     65583180           3           1       -3060   104.533920       190.804886      0.875507474    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   15  101  184
+  NOTICE metpos: (mtime,ftime) -     65583120    65583240
+  NOTICE metinp: ECMG 129265   21   15  101  183 65583120 24  9 10 20
+  NOTICE   main:     65583150           1           1       -3090   119.081917       188.117950      0.962477863    
+  NOTICE   main:     65583150           2           1       -3090   107.678864       193.168381      0.958358705    
+  NOTICE   main:     65583150           3           1       -3090   104.828117       190.805420      0.875009656    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   21   15  101  184 shift
+  NOTICE metsub: (kg ,xyr,xy1) -     1   32   23   96  180 expand
+  NOTICE advpnt: (kg,nx,ny,nz) -     1   32   23   23
+  NOTICE metgrd: (kg, xyr,xy1) -     1   32   23   96  180
+  NOTICE metinp: ECMG 129389   32   23   96  180 65583180 24  9 10 21
+  NOTICE metinp: ECMG 129265   32   23   96  180 65583120 24  9 10 20
+  NOTICE   main:     65583120           1           1       -3120   119.391548       188.198822      0.962571502    
+  NOTICE   main:     65583120           2           1       -3120   107.917946       193.263260      0.958195746    
+  NOTICE   main:     65583120           3           1       -3120   105.126640       190.795944      0.874584794    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   32   23   97  180
+  NOTICE metpos: (mtime,ftime) -     65583060    65583180
+  NOTICE metinp: ECMG 129141   32   23   96  180 65583060 24  9 10 19
+  NOTICE   main:     65583060           1           1       -3180   119.980301       188.368286      0.963393509    
+  NOTICE   main:     65583060           2           1       -3180   108.363670       193.445038      0.958137691    
+  NOTICE   main:     65583060           3           1       -3180   105.716324       190.752914      0.873616755    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   32   23   97  180
+  NOTICE metpos: (mtime,ftime) -     65583000    65583120
+  NOTICE metinp: ECMG 129017   32   23   96  180 65583000 24  9 10 18
+  NOTICE   main:     65583000           1           1       -3240   120.566872       188.561493      0.964651108    
+  NOTICE   main:     65583000           2           1       -3240   108.791046       193.632660      0.958482206    
+  NOTICE   main:     65583000           3           1       -3240   106.301125       190.683640      0.872875571    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   32   23   98  180
+  NOTICE metpos: (mtime,ftime) -     65582940    65583060
+  NOTICE metinp: ECMG 128893   32   23   96  180 65582940 24  9 10 17
+  NOTICE   main:     65582940           1           1       -3300   121.194572       188.800201      0.965637445    
+  NOTICE   main:     65582940           2           1       -3300   109.239174       193.839996      0.958966076    
+  NOTICE   main:     65582940           3           1       -3300   106.880882       190.611038      0.872237742    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   32   23   98  180
+  NOTICE metpos: (mtime,ftime) -     65582880    65583000
+  NOTICE metinp: ECMG 128769   32   23   96  180 65582880 24  9 10 16
+  NOTICE   main:     65582880           1           1       -3360   121.891144       189.104172      0.965425313    
+  NOTICE   main:     65582880           2           1       -3360   109.742485       194.080261      0.958888531    
+  NOTICE   main:     65582880           3           1       -3360   107.453575       190.547592      0.871297836    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   32   23   99  181
+  NOTICE metpos: (mtime,ftime) -     65582820    65582940
+  NOTICE metinp: ECMG 128645   32   23   96  180 65582820 24  9 10 15
+  NOTICE   main:     65582820           1           1       -3420   122.698875       189.463104      0.964199185    
+  NOTICE   main:     65582820           2           1       -3420   110.348000       194.374680      0.958073020    
+  NOTICE   main:     65582820           3           1       -3420   107.995827       190.484177      0.870277464    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   32   23   99  181
+  NOTICE metpos: (mtime,ftime) -     65582760    65582880
+  NOTICE metinp: ECMG 128521   32   23   96  180 65582760 24  9 10 14
+  NOTICE   main:     65582790           1           1       -3450   123.177338       189.644867      0.963419735    
+  NOTICE   main:     65582790           2           1       -3450   110.708710       194.548813      0.957398534    
+  NOTICE   main:     65582790           3           1       -3450   108.244400       190.439255      0.869807303    
+  NOTICE   main:     65582760           1           1       -3480   123.735611       189.814850      0.962538064    
+  NOTICE   main:     65582760           2           1       -3480   111.118530       194.743027      0.956615686    
+  NOTICE   main:     65582760           3           1       -3480   108.474709       190.383423      0.869437695    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   32   23  100  181
+  NOTICE metpos: (mtime,ftime) -     65582700    65582820
+  NOTICE metinp: ECMG 128397   32   23   96  180 65582700 24  9 10 13
+  NOTICE   main:     65582730           1           1       -3510   124.363075       189.995285      0.961429894    
+  NOTICE   main:     65582730           2           1       -3510   111.568382       194.954147      0.955845773    
+  NOTICE   main:     65582730           3           1       -3510   108.696152       190.324799      0.869210660    
+  NOTICE   main:     65582700           1           1       -3540   125.038353       190.209015      0.959861040    
+  NOTICE   main:     65582700           2           1       -3540   112.048889       195.173615      0.955018640    
+  NOTICE   main:     65582700           3           1       -3540   108.918144       190.273651      0.869207323    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   32   23  101  182
+  NOTICE metpos: (mtime,ftime) -     65582640    65582760
+  NOTICE metsub: (kg ,xyr,xy1) -     1   32   23  101  182 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   32   23  101  182
+  NOTICE metinp: ECMG 128397   32   23  101  182 65582700 24  9 10 13
+  NOTICE metinp: ECMG 128273   32   23  101  182 65582640 24  9 10 12
+  NOTICE   main:     65582670           1           1       -3570   125.727486       190.449158      0.957591653    
+  NOTICE   main:     65582670           2           1       -3570   112.543373       195.389572      0.954318702    
+  NOTICE   main:     65582670           3           1       -3570   109.139122       190.232193      0.869326115    
+  NOTICE   main:     65582640           1           1       -3600   126.403748       190.702103      0.954947829    
+  NOTICE   main:     65582640           2           1       -3600   113.038055       195.589417      0.953966916    
+  NOTICE   main:     65582640           3           1       -3600   109.359108       190.200317      0.869491339    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   32   23  102  182
+  NOTICE metpos: (mtime,ftime) -     65582580    65582700
+  NOTICE metinp: ECMG 128149   32   23  101  182 65582580 24  9 10 11
+  NOTICE   main:     65582610           1           1       -3630   127.072754       190.952026      0.952602863    
+  NOTICE   main:     65582610           2           1       -3630   113.536118       195.775192      0.953965247    
+  NOTICE   main:     65582610           3           1       -3630   109.580109       190.178833      0.869762599    
+  NOTICE   main:     65582580           1           1       -3660   127.739212       191.190170      0.950837255    
+  NOTICE   main:     65582580           2           1       -3660   114.042336       195.943298      0.954316914    
+  NOTICE   main:     65582580           3           1       -3660   109.803345       190.168976      0.870141029    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   32   23  103  182
+  NOTICE metpos: (mtime,ftime) -     65582520    65582640
+  NOTICE metinp: ECMG 128025   32   23  101  182 65582520 24  9 10 10
+  NOTICE   main:     65582550           1           1       -3690   128.397736       191.422501      0.949599206    
+  NOTICE   main:     65582550           2           1       -3690   114.563507       196.096771      0.955024958    
+  NOTICE   main:     65582550           3           1       -3690   110.031395       190.168060      0.870582283    
+  NOTICE   main:     65582520           1           1       -3720   129.040985       191.657410      0.948785365    
+  NOTICE   main:     65582520           2           1       -3720   115.110062       196.232269      0.956107676    
+  NOTICE   main:     65582520           3           1       -3720   110.267708       190.173782      0.871073306    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   32   23  104  182
+  NOTICE metpos: (mtime,ftime) -     65582460    65582580
+  NOTICE metinp: ECMG 127901   32   23  101  182 65582460 24  9 10  9
+  NOTICE   main:     65582490           1           1       -3750   129.648376       191.896011      0.948873103    
+  NOTICE   main:     65582490           2           1       -3750   115.682022       196.336853      0.957196474    
+  NOTICE   main:     65582490           3           1       -3750   110.507385       190.193741      0.871529996    
+  NOTICE   main:     65582460           1           1       -3780   130.208893       192.128632      0.950476646    
+  NOTICE   main:     65582460           2           1       -3780   116.272217       196.402481      0.958155572    
+  NOTICE   main:     65582460           3           1       -3780   110.744766       190.234360      0.871847689    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   32   23  105  182
+  NOTICE metpos: (mtime,ftime) -     65582400    65582520
+  NOTICE metsub: (kg ,xyr,xy1) -     1   32   23  105  182 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   32   23  105  182
+  NOTICE metinp: ECMG 127901   32   23  105  182 65582460 24  9 10  9
+  NOTICE metinp: ECMG 127777   32   23  105  182 65582400 24  9 10  8
+  NOTICE   main:     65582430           1           1       -3810   130.753006       192.345062      0.953473330    
+  NOTICE   main:     65582430           2           1       -3810   116.873215       196.445343      0.958951175    
+  NOTICE   main:     65582430           3           1       -3810   110.987831       190.288727      0.872042298    
+  NOTICE   main:     65582400           1           1       -3840   131.297440       192.534348      0.957632422    
+  NOTICE   main:     65582400           2           1       -3840   117.476944       196.479462      0.959560156    
+  NOTICE   main:     65582400           3           1       -3840   111.243858       190.351074      0.872168899    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   32   23  106  182
+  NOTICE metpos: (mtime,ftime) -     65582340    65582460
+  NOTICE metinp: ECMG 127653   32   23  105  182 65582340 24  9 10  7
+  NOTICE   main:     65582370           1           1       -3870   131.846069       192.691422      0.961993158    
+  NOTICE   main:     65582370           2           1       -3870   118.083336       196.497314      0.960055470    
+  NOTICE   main:     65582370           3           1       -3870   111.511963       190.418716      0.872210860    
+  NOTICE   main:     65582340           1           1       -3900   132.386566       192.830856      0.966091633    
+  NOTICE   main:     65582340           2           1       -3900   118.694099       196.498596      0.960415781    
+  NOTICE   main:     65582340           3           1       -3900   111.791924       190.488022      0.872144878    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   32   23  106  182
+  NOTICE metpos: (mtime,ftime) -     65582280    65582400
+  NOTICE metinp: ECMG 127529   32   23  105  182 65582280 24  9 10  6
+  NOTICE   main:     65582310           1           1       -3930   132.918167       192.955261      0.969736934    
+  NOTICE   main:     65582310           2           1       -3930   119.311859       196.487091      0.960694253    
+  NOTICE   main:     65582310           3           1       -3930   112.084732       190.561737      0.872052252    
+  NOTICE   main:     65582280           1           1       -3960   133.442657       193.079391      0.972280979    
+  NOTICE   main:     65582280           2           1       -3960   119.936378       196.459198      0.960881770    
+  NOTICE   main:     65582280           3           1       -3960   112.390877       190.643311      0.871949792    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   32   23  107  182
+  NOTICE metpos: (mtime,ftime) -     65582220    65582340
+  NOTICE metinp: ECMG 127405   32   23  105  182 65582220 24  9 10  5
+  NOTICE   main:     65582250           1           1       -3990   133.960358       193.214386      0.973563015    
+  NOTICE   main:     65582250           2           1       -3990   120.566116       196.418274      0.961257517    
+  NOTICE   main:     65582250           3           1       -3990   112.714874       190.730728      0.871850729    
+  NOTICE   main:     65582220           1           1       -4020   134.488403       193.363724      0.973491549    
+  NOTICE   main:     65582220           2           1       -4020   121.199921       196.364136      0.962042034    
+  NOTICE   main:     65582220           3           1       -4020   113.062119       190.821976      0.871806681    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   32   23  108  182
+  NOTICE metpos: (mtime,ftime) -     65582160    65582280
+  NOTICE metsub: (kg ,xyr,xy1) -     1   32   23  108  182 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   32   23  108  182
+  NOTICE metinp: ECMG 127405   32   23  108  182 65582220 24  9 10  5
+  NOTICE metinp: ECMG 127281   32   23  108  182 65582160 24  9 10  4
+  NOTICE   main:     65582190           1           1       -4050   135.044235       193.528870      0.972338736    
+  NOTICE   main:     65582190           2           1       -4050   121.840767       196.294159      0.963104069    
+  NOTICE   main:     65582190           3           1       -4050   113.434654       190.915619      0.871857584    
+  NOTICE   main:     65582160           1           1       -4080   135.637360       193.699219      0.971262336    
+  NOTICE   main:     65582160           2           1       -4080   122.486687       196.214966      0.964087427    
+  NOTICE   main:     65582160           3           1       -4080   113.835686       191.010010      0.871986270    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   32   23  109  183
+  NOTICE metpos: (mtime,ftime) -     65582100    65582220
+  NOTICE metinp: ECMG 127157   32   23  108  182 65582100 24  9 10  3
+  NOTICE   main:     65582130           1           1       -4110   136.255753       193.862762      0.971123874    
+  NOTICE   main:     65582130           2           1       -4110   123.140930       196.124771      0.964716792    
+  NOTICE   main:     65582130           3           1       -4110   114.264969       191.103882      0.872150779    
+  NOTICE   main:     65582100           1           1       -4140   136.881073       194.015976      0.971982718    
+  NOTICE   main:     65582100           2           1       -4140   123.807449       196.028778      0.964960992    
+  NOTICE   main:     65582100           3           1       -4140   114.720955       191.197479      0.872400582    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   32   23  110  183
+  NOTICE metpos: (mtime,ftime) -     65582040    65582160
+  NOTICE metinp: ECMG 127033   32   23  108  182 65582040 24  9 10  2
+  NOTICE   main:     65582070           1           1       -4170   137.503387       194.158051      0.973313868    
+  NOTICE   main:     65582070           2           1       -4170   124.473518       195.934601      0.964867592    
+  NOTICE   main:     65582070           3           1       -4170   115.197662       191.289963      0.872653782    
+  NOTICE metsub: (kg ,xyr,xy1) -     1   32   23  110  183 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   32   23  110  183
+  NOTICE metinp: ECMG 127157   32   23  110  183 65582100 24  9 10  3
+  NOTICE metinp: ECMG 127033   32   23  110  183 65582040 24  9 10  2
+  NOTICE   main:     65582040           1           1       -4200   138.121780       194.292877      0.974516332    
+  NOTICE   main:     65582040           2           1       -4200   125.123215       195.841187      0.964561582    
+  NOTICE   main:     65582040           3           1       -4200   115.690659       191.379959      0.872784197    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   32   23  111  182
+  NOTICE metpos: (mtime,ftime) -     65581980    65582100
+  NOTICE metinp: ECMG 126909   32   23  110  183 65581980 24  9 10  1
+  NOTICE   main:     65582010           1           1       -4230   138.728500       194.418777      0.975638449    
+  NOTICE   main:     65582010           2           1       -4230   125.751831       195.749268      0.964205503    
+  NOTICE   main:     65582010           3           1       -4230   116.195740       191.467178      0.872747362    
+  NOTICE   main:     65581980           1           1       -4260   139.319305       194.533722      0.976673961    
+  NOTICE   main:     65581980           2           1       -4260   126.356369       195.660568      0.964010417    
+  NOTICE   main:     65581980           3           1       -4260   116.708649       191.552124      0.872587502    
+  NOTICE advrng: (kg ,xyr,xy1) -  1   32   23  112  182
+  NOTICE metpos: (mtime,ftime) -     65581920    65582040
+  NOTICE metsub: (kg ,xyr,xy1) -     1   32   23  112  182 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   32   23  112  182
+  NOTICE metinp: ECMG 126909   32   23  112  182 65581980 24  9 10  1
+  NOTICE metinp: ECMG 126785   32   23  112  182 65581920 24  9 10  0
+  NOTICE   main:     65581950           1           1       -4290   139.894379       194.638596      0.977559268    
+  NOTICE   main:     65581950           2           1       -4290   126.941757       195.575668      0.964183033    
+  NOTICE   main:     65581950           3           1       -4290   117.226738       191.635223      0.872384846    
+  NOTICE   main:     65581920           1           1       -4320   140.451202       194.734772      0.978710294    
+  NOTICE   main:     65581920           2           1       -4320   127.509277       195.495163      0.964509368    
+  NOTICE   main:     65581920           3           1       -4320   117.749954       191.716110      0.872208714    
